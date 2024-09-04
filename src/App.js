@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import { add } from './add';
 
 function App() {
+  const bla = add(1,2);
   return (
     <div className="App">
       <header className="App-header">
@@ -15,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Inline wasm works with react: {bla}
         </a>
       </header>
     </div>
